@@ -7,4 +7,4 @@ doc = Nokogiri::HTML(html)
 
 title = doc.css(".title-3CyKCM")
 
-puts title
+puts title.text
