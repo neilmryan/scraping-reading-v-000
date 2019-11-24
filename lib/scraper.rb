@@ -7,6 +7,6 @@ doc = Nokogiri::HTML(html)
 
 #puts title = doc.css(".title-3CyKCM")
 
-p doc.css(".title-3CyKCM")[0].name
+p doc.css(".title-3CyKCM")[0].attributes
 
 #title.each {|i| puts i.text}
